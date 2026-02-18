@@ -1,5 +1,6 @@
-picoCTF: Riddle Registry <?>
+CTF: Riddle Registry <?>
 Category: Forensics
+Link: https://play.picoctf.org/practice?difficulty=1&page=1
 
 Description: 
  You've stumbled upon a peculiar PDF filled with what seems like nothing
@@ -18,6 +19,7 @@ Solution:
  
  You can also use online tools for viewing detailed metadata,
  I used https://www.metadata2go.com/.
+ <img width="919" height="357" alt="image" src="https://github.com/user-attachments/assets/51036b87-b5bf-4a2a-8ea3-56a66e3eee55" />
  you'll find that all text seems readable and normal
  except the author name which is a string with an equals to (=) sign at the end.
  
@@ -31,9 +33,11 @@ Solution:
  almost every webpage (99%) is transmitted as UTF-8.
  
  So I looked up for a decoder, and found https://www.base64decode.org/.
+ <img width="852" height="630" alt="image" src="https://github.com/user-attachments/assets/38c46770-0bcf-42ca-99bd-d1fa51bc10ef" />
  Pasted the string and voilà. I found the now decoded flag.
 
 Credits:
 Thanks to @Cyber-Connect-pk https://github.com/Cyber-Connect-pk for
 hosting weekly CTFs like these to help us improve our CTF solving skills!
+
 
